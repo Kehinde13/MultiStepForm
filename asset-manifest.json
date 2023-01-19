@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MultiStepForm/static/css/main.80f48e65.css",
+    "main.js": "/MultiStepForm/static/js/main.a6dac8f8.js",
+    "static/media/Ubuntu-Regular.ttf": "/MultiStepForm/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/MultiStepForm/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/Ubuntu-Bold.ttf": "/MultiStepForm/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/bg-sidebar-desktop.svg": "/MultiStepForm/static/media/bg-sidebar-desktop.6918153f38678372ceb14496fda9664c.svg",
+    "static/media/bg-sidebar-mobile.svg": "/MultiStepForm/static/media/bg-sidebar-mobile.ad41661b40ca0b967f3a9f96479b9c1a.svg",
+    "static/media/icon-advanced.svg": "/MultiStepForm/static/media/icon-advanced.705bd10c4c1f688871d729633f0ca4ae.svg",
+    "static/media/icon-thank-you.svg": "/MultiStepForm/static/media/icon-thank-you.ee753f231cc5a5789b8eb922a96472c0.svg",
+    "index.html": "/MultiStepForm/index.html",
+    "static/media/icon-pro.svg": "/MultiStepForm/static/media/icon-pro.2e7e377da9c658d608624304a0f8dae6.svg",
+    "static/media/icon-arcade.svg": "/MultiStepForm/static/media/icon-arcade.a08c098289a31bb2f66d675be71565b3.svg",
+    "main.80f48e65.css.map": "/MultiStepForm/static/css/main.80f48e65.css.map",
+    "main.a6dac8f8.js.map": "/MultiStepForm/static/js/main.a6dac8f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80f48e65.css",
+    "static/js/main.a6dac8f8.js"
+  ]
+}
