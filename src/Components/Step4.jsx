@@ -46,7 +46,7 @@ function Step4(props) {
               Go Back
             </NavLink>
 
-            <NavLink to='/Th'
+            <NavLink to='/Thanks'
               className='btn rounded-md py-2 px-4 hover:opacity-50'>
                Confirm
             </NavLink>
