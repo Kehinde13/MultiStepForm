@@ -95,7 +95,7 @@ function Step2(props) {
 
         <div className='bottom-2 flex left-7 justify-between w-80 md:bottom-20 
                     absolute md:w-[500px] md:left-[510px]'>
-            <NavLink to="/"
+            <NavLink to="/MultiStepForm"
                className='font-bold text-xl text-blue-300 hover:text-blue-900 mt-1'>
               Go Back
             </NavLink>

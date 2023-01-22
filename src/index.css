@@ -27,6 +27,15 @@ P {
   font-family: "Ubuntu-Regular";
 }
 
+/* SIDEBAR */
+
+
+@media screen and (max-width: 769px) {
+  .sidebar img{
+    width: 100%;
+  }
+}
+
 .steps {
   font-family: "Ubuntu-Medium";
 }

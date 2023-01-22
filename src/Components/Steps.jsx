@@ -5,12 +5,12 @@ function Steps() {
     const location = useLocation()
 
   return (
-    <div className='mt-[-10px]'>
-         <div className='ml-20 md:ml-8 md:mt-20 absolute top-5 '>
+    <div className='mt-[-10px] sidebar'>
+         <div className='ml-24 md:ml-8 md:mt-20 absolute top-5 '>
                   <ul className='flex md:flex-col md:space-y-10 md:space-x-0 space-x-10 font-bold'>
                     <li className='flex space-x-5'>
                         <div className={`rounded-full border w-7 text-center text-white self-center 
-                            ${location.pathname === "/" ? "bg-sky-300 text-blue-800 border-none" : "text-white"}`}>
+                            ${location.pathname === "/MultiStepForm" ? "bg-sky-300 text-blue-800 border-none" : "text-white"}`}>
                             1
                         </div>
                         <div className='hidden md:block steps'>
