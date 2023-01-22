@@ -61,7 +61,6 @@ function Form() {
                         to='/Step2'
                         className='btn rounded-md p-2 absolute left-[210px] top-[490px] 
                                     hover:opacity-50 md:left-[430px] md:top-[480px]'
-                        /* onClick={} */
                     >
                         Next Step
                   </NavLink>   
