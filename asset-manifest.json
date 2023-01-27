@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MultiStepForm/static/css/main.c3b428cd.css",
-    "main.js": "/MultiStepForm/static/js/main.6d4f6962.js",
+    "main.css": "/MultiStepForm/static/css/main.42e441d4.css",
+    "main.js": "/MultiStepForm/static/js/main.6d5f9a3b.js",
     "static/media/Ubuntu-Regular.ttf": "/MultiStepForm/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
     "static/media/Ubuntu-Medium.ttf": "/MultiStepForm/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
     "static/media/Ubuntu-Bold.ttf": "/MultiStepForm/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
@@ -12,11 +12,11 @@
     "index.html": "/MultiStepForm/index.html",
     "static/media/icon-pro.svg": "/MultiStepForm/static/media/icon-pro.2e7e377da9c658d608624304a0f8dae6.svg",
     "static/media/icon-arcade.svg": "/MultiStepForm/static/media/icon-arcade.a08c098289a31bb2f66d675be71565b3.svg",
-    "main.c3b428cd.css.map": "/MultiStepForm/static/css/main.c3b428cd.css.map",
-    "main.6d4f6962.js.map": "/MultiStepForm/static/js/main.6d4f6962.js.map"
+    "main.42e441d4.css.map": "/MultiStepForm/static/css/main.42e441d4.css.map",
+    "main.6d5f9a3b.js.map": "/MultiStepForm/static/js/main.6d5f9a3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3b428cd.css",
-    "static/js/main.6d4f6962.js"
+    "static/css/main.42e441d4.css",
+    "static/js/main.6d5f9a3b.js"
   ]
 }
