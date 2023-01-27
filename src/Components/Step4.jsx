@@ -39,7 +39,7 @@ function Step4(props) {
         </div>
 
         <div
-          className='bottom-2 mx-5 flex justify-between w-80 md:bottom-28 
+          className='bottom-2 mx-5 flex justify-between w-[90%] md:bottom-28 
                     absolute md:w-[500px] md:left-[500px]'>
             <NavLink to="/Step3"
                className='font-bold text-xl text-blue-300 hover:text-blue-900 mt-1'>

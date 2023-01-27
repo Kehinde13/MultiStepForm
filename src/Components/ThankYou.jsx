@@ -9,7 +9,7 @@ function ThankYou() {
         <div className='mt-10 md:mt-20 md:w-[500px]'>
             <img 
             src={ThanksImg} alt="thanks"
-            className='w-[50px] mx-auto mb-4'
+            className='h-12 mx-auto mb-4'
             />
             <h1 className='font-bold text-2xl my-3 md:text-4xl'>Thank You</h1>
             

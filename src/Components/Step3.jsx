@@ -37,15 +37,15 @@ function Step3(props) {
                       checked={addOns.onlineServices}
                   />
               <label 
-                className='flex text-sm'
+                className='flex text-sm space-x-12 md:space-x-36'
                 htmlFor="onlineServices">
                   <div>
                     <h1 className='font-bold'>Online Services</h1>
                     <p>Access to multiplayer games</p>  
                   </div>
-                  <p className='absolute left-[220px] top-3 md:left-[430px] md:top-5'>
+                  <div>
                   {props.isToggled ? "+$10/yr" : "+$1/mo"}
-                  </p>
+                  </div>
               </label>
               </div>
 
@@ -60,15 +60,15 @@ function Step3(props) {
                       checked={addOns.largerStorage}
                   />
               <label 
-                className='flex text-sm'
+                className='flex text-sm space-x-24 md:space-x-48'
                 htmlFor="largerStorage">
                   <div>
                     <h1 className='font-bold'>Larger Storage</h1>
                     <p>Extra 1TB of storage</p>  
                   </div>
-                  <p className='absolute left-[220px] top-3 md:left-[430px] md:top-5'>
+                  <div>
                   {props.isToggled ? "+$20/yr" : "+$2/mo"}
-                  </p>
+                  </div>
               </label>
               </div>
 
@@ -83,15 +83,15 @@ function Step3(props) {
                       checked={addOns.customize} 
                   />
               <label 
-                className='flex text-sm'
+                className='flex text-sm space-x-10 md:space-x-32'
                 htmlFor="customize">
                   <div>
                     <h1 className='font-bold'>Customizable Profile</h1>
                     <p>Custom theme on your profile</p>  
                   </div>
-                  <p className='absolute left-[220px] top-3 md:left-[430px] md:top-5'>
+                  <div>
                     {props.isToggled ? "+$20/yr" : "+$2/mo"}
-                  </p>
+                  </div>
               </label>
               </div>
               
@@ -112,7 +112,7 @@ function Step3(props) {
 
       </div>
 
-      <div className='bottom-2 mx-5 flex justify-between w-80 md:bottom-16 absolute md:w-[500px] md:left-[500px]'>
+      <div className='bottom-2 mx-5 flex justify-between w-[90%] md:bottom-16 absolute md:w-[500px] md:left-[500px]'>
             <NavLink to="/Step2"
                className='font-bold text-xl text-blue-300 hover:text-blue-900 mt-1'>
               Go Back

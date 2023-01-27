@@ -29,7 +29,7 @@ function Step2(props) {
 
   return (
     <div className="container">
-        <div className='w-4/5 bg-white rounded-lg absolute top-20 left-10 h-102 p-5 
+        <div className='w-4/5 bg-white rounded-lg absolute top-20 left-10 h-102 p-5 mb-5 
                         md:left-[500px] md:w-1/2 md:top-14 shadow-lg md:shadow-none'>
     
           <h1 className='font-bold text-2xl my-3 md:text-4xl'>Select your plan</h1>    
@@ -38,42 +38,42 @@ function Step2(props) {
           <div className='md:flex md:space-x-3'>
               <div
                 onClick={chooseArcade}  
-                className={`flex space-x-4 p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
+                className={`flex p-5 md:p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
                 ${arcade ? "selectedOption" : ""}`}
               >
-                  <img src={arcadeIcon} alt="" className='md:w-12 md:mt-2 md:ml-3'/>
-                <div>
+                <img src={arcadeIcon} alt="" className='mr-4 h-12 md:mt-2 md:ml-3'/>
+                <div className='mr-28'>
                   <h1 className='font-bold md:mt-12'>Arcade</h1>
                   { props.isToggled ?
-                  <><p>$90/yr</p> <p className='font-semibold'>2 months free</p> </>  :
+                  <><p>$90/yr</p> <p className='font-semibold w-32'>2 months free</p> </>  :
                   <p>$9/mo</p> }
                 </div>
               </div >
 
               <div
                 onClick={chooseAdvanced}  
-                className={`flex space-x-4 p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
+                className={`flex p-5 md:p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
                 ${advanced ? "selectedOption" : ""}`}
               >
-                  <img src={advancedIcon} alt="" className= 'md:w-12 md:mt-2 md:ml-3'/>
-              <div> 
+                  <img src={advancedIcon} alt="" className= 'h-12 md:mt-2 md:ml-3'/>
+              <div className='mr-24 px-3'> 
                   <h1 className='font-bold md:mt-12'>Advanced</h1>
                   { props.isToggled ?
-                  <><p>$120/yr</p> <p className='font-semibold'>2 months free</p> </>  :
+                  <><p>$120/yr</p> <p className='font-semibold w-32'>2 months free</p> </>  :
                   <p>$12/mo</p> }
                 </div>
               </div>
 
               <div
                 onClick={choosePro}  
-                className={`flex space-x-4 p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
+                className={`flex p-5 md:p-3 border-2 mb-3 rounded-md cursor-pointer md:w-1/4 md:h-[200px] md:block option 
                 ${pro ? "selectedOption" : ""}`}
               >
-                  <img src={proIcon} alt="" className='md:w-12 md:mt-2 md:ml-3'/>
-              <div>
+                  <img src={proIcon} alt="" className='h-12 md:mt-2 md:ml-3'/>
+              <div className='mr-28 px-3'>
                   <h1 className='font-bold md:mt-12'>Pro</h1>
                   { props.isToggled ?
-                  <><p>$150/yr</p> <p className='font-semibold'>2 months free</p> </>  :
+                  <><p>$150/yr</p> <p className='font-semibold  w-32'>2 months free</p> </>  :
                   <p>$15/mo</p> }
                 </div>
               </div>
@@ -93,7 +93,7 @@ function Step2(props) {
 
         </div>
 
-        <div className='bottom-2 flex left-7 justify-between w-80 md:bottom-20 
+        <div className='bottom-2 flex left-7 justify-between w-[90%] md:bottom-20 
                     absolute md:w-[500px] md:left-[510px]'>
             <NavLink to="/MultiStepForm"
                className='font-bold text-xl text-blue-300 hover:text-blue-900 mt-1'>
